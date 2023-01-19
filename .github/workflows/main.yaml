@@ -19,7 +19,7 @@ jobs:
           aws_region: us-east-1
 
       - name: Login to Amazon ECR
-        id: admin-user
+        id: aws-ecr-demo
         uses: aws-actions/amazon-ecr-login@v1
 
       - name: Automatic Tagging of Releases
